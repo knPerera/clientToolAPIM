@@ -1,0 +1,46 @@
+{
+  "id" : "308bab48-23fb-4bf4-a2b1-a1770569272a",
+  "name" : "WeatherAPI",
+  "description" : "sample weather API",
+  "context" : "/weather",
+  "version" : "1.0",
+  "provider" : "admin",
+  "apiDefinition" : "{\"paths\":{\"/*\":{\"post\":{\"parameters\":[{\"schema\":{\"type\":\"string\"},\"description\":\"SOAP request.\",\"name\":\"SOAP Request\",\"required\":true,\"in\":\"body\"},{\"description\":\"SOAPAction header for soap 1.1\",\"name\":\"SOAPAction\",\"type\":\"string\",\"required\":false,\"in\":\"header\"}],\"responses\":{\"200\":{\"description\":\"OK\"}},\"x-auth-type\":\"Application & Application User\",\"x-throttling-tier\":\"Unlimited\"}}},\"swagger\":\"2.0\",\"consumes\":[\"text/xml\",\"application/soap+xml\"],\"produces\":[\"text/xml\",\"application/soap+xml\"],\"info\":{\"title\":\"WeatherAPI\",\"version\":\"1.0\",\"description\":\"sample weather API\"}}",
+  "wsdlUri" : "/registry/resource/_system/governance/apimgt/applicationdata/wsdls/admin--WeatherAPI1.0.wsdl",
+  "status" : "CREATED",
+  "responseCaching" : "Disabled",
+  "cacheTimeout" : 300,
+  "destinationStatsEnabled" : null,
+  "isDefaultVersion" : false,
+  "transport" : [ "http", "https" ],
+  "tags" : [ "weather" ],
+  "tiers" : [ "Bronze" ],
+  "maxTps" : null,
+  "thumbnailUri" : "/apis/308bab48-23fb-4bf4-a2b1-a1770569272a/thumbnail",
+  "visibility" : "PUBLIC",
+  "visibleRoles" : [ ],
+  "visibleTenants" : [ ],
+  "endpointConfig" : "{\"production_endpoints\":{\"url\":\"http://www.webservicex.com/globalweather.asmx?WSDL\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"http://www.webservicex.com/globalweather.asmx?WSDL\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "endpointSecurity" : null,
+  "gatewayEnvironments" : "Production and Sandbox",
+  "sequences" : [ {
+    "name" : "json_to_xml_in_message",
+    "config" : null,
+    "type" : "in"
+  } ],
+  "subscriptionAvailability" : "current_tenant",
+  "subscriptionAvailableTenants" : [ ],
+  "businessInformation" : {
+    "businessOwnerEmail" : null,
+    "technicalOwnerEmail" : null,
+    "technicalOwner" : null,
+    "businessOwner" : null
+  },
+  "corsConfiguration" : {
+    "accessControlAllowOrigins" : [ "*" ],
+    "accessControlAllowHeaders" : [ "authorization", "Access-Control-Allow-Origin", "Content-Type", "SOAPAction" ],
+    "accessControlAllowMethods" : [ "GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS" ],
+    "accessControlAllowCredentials" : false,
+    "corsConfigurationEnabled" : false
+  }
+}

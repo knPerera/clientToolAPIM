@@ -1,0 +1,19 @@
+<h1 class="title">Consuming a SOAP web service</h1>
+<div class="article-body">
+<div class="paragraph">
+<p>This guide walks you through the process of consuming a <a href="https://spring.io/understanding/SOAP">SOAP-based web service</a> with Spring.</p>
+</div>
+<div class="sect1">
+<h2 id="_what_you_ll_build">What you&rsquo;ll build</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You will build a client that fetches weather data from a remote, WSDL-based web service using <a href="http://en.wikipedia.org/wiki/SOAP">SOAP</a>. You can find out more about the weather service at <a class="bare" href="http://wiki.cdyne.com/index.php/CDYNE_Weather">http://wiki.cdyne.com/index.php/CDYNE_Weather</a></p>
+</div>
+<div class="paragraph">
+<p>The service provides weather forecasts based on a zipcode. You will be able to use your own zip code.</p>
+<h1>This is the modification done to check modifications</h1>
+<h3>This is the second modiification</h3>
+</div>
+</div>
+</div>
+</div>

@@ -1,0 +1,42 @@
+{
+  "id" : "161b8c37-0d6a-4ac5-9b8d-962e9ad17d2d",
+  "name" : "calculatorAPI",
+  "description" : "sample API",
+  "context" : "/calculator",
+  "version" : "1.0",
+  "provider" : "admin",
+  "apiDefinition" : "{\"paths\":{\"/*\":{\"post\":{\"parameters\":[{\"schema\":{\"type\":\"string\"},\"description\":\"SOAP request.\",\"name\":\"SOAP Request\",\"required\":true,\"in\":\"body\"},{\"description\":\"SOAPAction header for soap 1.1\",\"name\":\"SOAPAction\",\"type\":\"string\",\"required\":false,\"in\":\"header\"}],\"responses\":{\"200\":{\"description\":\"OK\"}},\"x-auth-type\":\"Application & Application User\",\"x-throttling-tier\":\"Unlimited\"}}},\"swagger\":\"2.0\",\"consumes\":[\"text/xml\",\"application/soap+xml\"],\"produces\":[\"text/xml\",\"application/soap+xml\"],\"info\":{\"title\":\"calculatorAPI\",\"version\":\"1.0\",\"description\":\"sample API\"}}",
+  "wsdlUri" : "/registry/resource/_system/governance/apimgt/applicationdata/wsdls/admin--calculatorAPI1.0.wsdl",
+  "status" : "CREATED",
+  "responseCaching" : "Disabled",
+  "cacheTimeout" : 300,
+  "destinationStatsEnabled" : null,
+  "isDefaultVersion" : false,
+  "transport" : [ "http", "https" ],
+  "tags" : [ "cal" ],
+  "tiers" : [ "Bronze" ],
+  "maxTps" : null,
+  "thumbnailUri" : "/apis/161b8c37-0d6a-4ac5-9b8d-962e9ad17d2d/thumbnail",
+  "visibility" : "PUBLIC",
+  "visibleRoles" : [ ],
+  "visibleTenants" : [ ],
+  "endpointConfig" : "{\"production_endpoints\":{\"url\":\"https://svn.apache.org/repos/asf/airavata/sandbox/xbaya-web/test/Calculator.wsdl\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "endpointSecurity" : null,
+  "gatewayEnvironments" : "Production and Sandbox",
+  "sequences" : [ ],
+  "subscriptionAvailability" : null,
+  "subscriptionAvailableTenants" : [ ],
+  "businessInformation" : {
+    "businessOwnerEmail" : null,
+    "technicalOwnerEmail" : null,
+    "technicalOwner" : null,
+    "businessOwner" : null
+  },
+  "corsConfiguration" : {
+    "accessControlAllowOrigins" : [ "*" ],
+    "accessControlAllowHeaders" : [ "authorization", "Access-Control-Allow-Origin", "Content-Type", "SOAPAction" ],
+    "accessControlAllowMethods" : [ "GET", "PUT", "POST", "DELETE", "PATCH", "OPTIONS" ],
+    "accessControlAllowCredentials" : false,
+    "corsConfigurationEnabled" : false
+  }
+}

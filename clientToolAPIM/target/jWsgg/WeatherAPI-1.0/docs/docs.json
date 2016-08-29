@@ -1,0 +1,24 @@
+{
+  "count" : 2,
+  "next" : "",
+  "previous" : "",
+  "list" : [ {
+    "documentId" : "4153a939-cc3c-467a-aafd-e15b22611897",
+    "name" : "document inline",
+    "type" : "HOWTO",
+    "summary" : "sample inline",
+    "sourceType" : "INLINE",
+    "sourceUrl" : null,
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  }, {
+    "documentId" : "834a1982-e614-4efd-9c01-c93549b1c649",
+    "name" : "file document",
+    "type" : "HOWTO",
+    "summary" : "sample file type",
+    "sourceType" : "FILE",
+    "sourceUrl" : null,
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  } ]
+}

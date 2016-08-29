@@ -1,0 +1,33 @@
+{
+  "count" : 3,
+  "next" : "",
+  "previous" : "",
+  "list" : [ {
+    "documentId" : "a5f974d4-6a8a-44cb-a326-9b8bda147245",
+    "name" : "document inline",
+    "type" : "HOWTO",
+    "summary" : "sample inline",
+    "sourceType" : "INLINE",
+    "sourceUrl" : null,
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  }, {
+    "documentId" : "0316b5aa-adfd-407f-a67b-ff3fbe9f3c8a",
+    "name" : "file document",
+    "type" : "HOWTO",
+    "summary" : "sample file type",
+    "sourceType" : "FILE",
+    "sourceUrl" : null,
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  }, {
+    "documentId" : "6f3dc856-4cf6-44f9-9f99-72209e67b2bc",
+    "name" : "fileTwo_gitTxt",
+    "type" : "HOWTO",
+    "summary" : "This is a file type doc",
+    "sourceType" : "FILE",
+    "sourceUrl" : null,
+    "otherTypeName" : null,
+    "visibility" : "API_LEVEL"
+  } ]
+}

@@ -1,0 +1,83 @@
+1.git init
+	To initialize a Git repository
+
+2.git status
+	to see what the current state of our project 
+
+--------------------------
+staged:
+Files are ready to be committed.
+
+unstaged:
+Files with changes that have not been prepared to be committed.
+
+untracked:
+Files aren't tracked by Git yet. This usually indicates a newly created file.
+
+deleted:
+File has been deleted and is waiting to be removed from Git.
+----------------------------------------------------------------
+
+3. git add octocat.txt
+	 add octocat.txt to the staging area
+
+4. git commit -m "Add octocat story"
+	To store our staged changes
+
+5. git add '*.txt'
+	 wildcards if you want to add many files of the same type
+
+6. git log
+	journal that remembers all the changes we've committed so far, in the order we committed them
+
+7.git remote add origin https://github.com/try-git/try_git.git
+	to push our local repo to the GitHub server we'll need to add a remote repository.
+
+8. git push -u origin master
+	The push command tells Git where to put our commits when we're ready.
+The name of our remote is origin and the default local branch name is master. The -u tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do. Go ahead and push it!
+
+9.git pull origin master
+	We can check for changes on our GitHub repository and pull down any new changes by running:
+
+10. git diff HEAD
+	take a look at what is different from our last commit by using the git diff command.
+
+11. git diff --staged
+	to see the changes you just staged.
+
+12.git reset octofamily/octodog.txt
+	You can unstage files by using the git reset command. Go ahead and remove octofamily/octodog.txt.
+
+13. git checkout --octocat.txt
+	Files can be changed back to how they were at the last commit by using the command: git checkout -- <target>. Go ahead and get rid of all the changes since the last commit for octocat.txt
+
+14. git branch clean_up
+	 let's create a branch
+
+15.  git checkout <branch> 
+	switch branches
+
+16. git checkout master
+	Go ahead and checkout the master branch
+
+17. git merge clean_up
+	merge clean_up branch to master
+
+18. git branch -d <branch name> 
+	 git branch -d <branch name> 
+
+19. git push
+	 to push everything you've been working on to your remote repository, 
+
+
+
+git remote add upstream http://github.com/original.git
+git fetch upstream
+git reset --hard upstream/master
+git push -f origin master
+
+
+simple modification
+
+
